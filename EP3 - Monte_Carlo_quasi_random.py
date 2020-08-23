@@ -19,7 +19,7 @@ def f(x):
 def g_function(x):
     return np.exp(-a*x)
 
-#Gerador de númeors quasi-aleatórios
+#Gerador de númeoros quasi-aleatórios
 def Quasi_Random_Generator(n):
 
     distribution = chaospy.J(chaospy.Uniform(0,1))
